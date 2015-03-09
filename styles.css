@@ -1,0 +1,100 @@
+body {
+
+	margin: 70px;
+	font: 100%;
+	font-family: "Courier" sans-serif;
+}
+
+p {
+	font-size: 1.6875em;
+	margin-bottom: 15px;
+	color: #333;
+}
+
+h1, h2 {
+	font-family: sans-serif;
+	font-weight: 800;
+}
+
+h1 {
+	font-size: 3.4375em; /** 55 target font size/16px base font size  **/
+	margin-bottom: 10px;
+	color: #333;
+	padding: 0.8em 5.33333333%;
+}
+
+h2 {
+	font-size: 3.125em; /** 50 target font size/16px base font size  **/
+	margin-bottom: 20px;
+}
+
+hr {
+	width: 320px;
+	margin-left: 0;
+	margin-bottom: 25px;
+
+}
+
+.page {
+	margin: 36px auto;
+	width: 90%;
+}
+
+.blog {
+	margin: 0 auto 53px;
+	width: 93.75%;
+}
+
+.blog .main {
+	float: left;
+	width: 62.8888889%;
+}
+
+.blog .recipes { /** 213px width size/331px .recipes size  **/
+	float: right;
+	width: 36.7777778%;
+}
+
+.recent-entries {
+	margin: 0 auto;
+	width: 69.7885196%;
+}
+
+.article {
+	padding: 40px 8.48056537%;
+}
+
+.indian {
+	color: #ff6600;
+}
+
+.greek {
+	color: #6699ff;
+}
+
+@media screen and (max-width: 768px) {
+	.blog .main,
+	.blog .recipes {
+		float; none;
+		width: auto;
+	}
+
+	h1 {
+		font-size: 2.5em;
+		text-align: center;
+	}
+
+	.article p {
+		text-align: center;
+		font-size: 1.25em;
+	}
+
+	.recipes p {
+		font-size: 1.25em;
+		text-align: center;
+	}
+
+	.recipes h2 {
+		text-align: center;
+	}
+}
