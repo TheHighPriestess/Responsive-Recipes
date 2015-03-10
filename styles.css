@@ -6,7 +6,7 @@ body {
 }
 
 p {
-	font-size: 1.6875em;
+	font-size: 1.25em;
 	margin-bottom: 15px;
 	color: #333;
 }
@@ -59,6 +59,10 @@ hr {
 	width: 69.7885196%;
 }
 
+.recipe-list {
+	margin-left: 35px;
+}
+
 .indian {
 	color: #ff6600;
 }
@@ -92,11 +96,9 @@ hr {
 
 	.recipes p {
 		font-size: 1em;
-		text-align: center;
 	}
 
 	.recipes h2 {
-		text-align: center;
 		font-size: 1.35em;
 	}
 }
