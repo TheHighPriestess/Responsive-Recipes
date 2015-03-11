@@ -89,7 +89,7 @@ a:visited {
 	color: #0CA5B0;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 768px) {
 	
 	body {
 		margin: 20px;
