@@ -1,30 +1,33 @@
 body {
-
 	margin: 70px;
 	font: 100%;
-	font-family: "Courier" sans-serif;
+	background-color: #F8F4E4;
 }
 
 p {
 	font-size: 1.25em;
 	margin-bottom: 15px;
-	color: #333;
+	color: #4E3F30;;
+	font-family: 'Cutive Mono', 'Courier', sans-serif;
 }
 
 h1, h2 {
-	font-family: sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-weight: 800;
 }
 
 h1 {
-	font-size: 3.125em; /** 50 target font size/16px base font size  **/
+	font-size: 2.75em; 
 	margin-bottom: 20px;
-	color: #333;
+	color: #4E3F30;
+	letter-spacing: 1px;
 }
 
 h2 {
-	font-size: 3.125em; /** 50 target font size/16px base font size  **/
+	font-size: 2.25em;
 	margin-bottom: 20px;
+	color: #0CA5B0;
+	letter-spacing: 2px;
 }
 
 hr {
@@ -32,6 +35,11 @@ hr {
 	margin-left: 0;
 	margin-bottom: 25px;
 
+}
+
+a:hover {
+	color: #0CA5B0;
+	font-weight: bold;
 }
 
 .page {
@@ -63,17 +71,25 @@ hr {
 	margin-left: 35px;
 }
 
-.indian {
-	color: #ff6600;
+.recipe-list a {
+	text-decoration: none;
 }
 
-.greek {
-	color: #6699ff;
+.boldlink {
+	text-decoration: none;
+	font-weight: bold;
+	color: #0CA5B0;
 }
 
+a.boldlink:hover {
+	color: #4E3F30;
+}
 
+a:visited {
+	color: #0CA5B0;
+}
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1000px) {
 	
 	body {
 		margin: 20px;
@@ -87,7 +103,7 @@ hr {
 
 	h1 {
 		font-size: 2.5em;
-		text-align: center;
+		text-align: left;
 	}
 
 	.article p {
@@ -101,4 +117,8 @@ hr {
 	.recipes h2 {
 		font-size: 1.35em;
 	}
+
+	.recipe-list {
+	margin-left: 0px;
+}
 }
