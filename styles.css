@@ -43,10 +43,8 @@ hr {
 	width: 80%;
 }
 
-a:hover {
-	color: #0CA5B0;
-	font-weight: bold;
-}
+
+/****** CENTERS THE PAGE CONTENT ******/
 
 .page {
 	margin: 36px auto;
@@ -58,19 +56,18 @@ a:hover {
 	width: 93.75%;
 }
 
+/****** EXPLANATION ON THE RIGHT ******/
+
 .blog .main {
 	float: left;
 	width: 62.8888889%;
 }
 
-.blog .recipes { /** 213px width size/331px .recipes size  **/
+/****** RECIPE INGREDIENTS AND INSTRUCTIONS ON THE LEFT ******/
+
+.blog .recipes { 
 	float: right;
 	width: 36.7777778%;
-}
-
-.recent-entries {
-	margin: 0 auto;
-	width: 69.7885196%;
 }
 
 .recipe-list {
@@ -80,6 +77,8 @@ a:hover {
 .recipe-list a {
 	text-decoration: none;
 }
+
+/****** 'BACK TO RECIPE LIST' ******/
 
 .boldlink {
 	text-decoration: none;
@@ -91,9 +90,18 @@ a.boldlink:hover {
 	color: #4E3F30;
 }
 
+/****** LINKS ******/
+
+a:hover {
+	color: #0CA5B0;
+	font-weight: bold;
+}
+
 a:visited {
 	color: #0CA5B0;
 }
+
+/****** KITCHEN GRAPHIC ******/
 
 .recipe-list img {
 	padding-right: 20px;
@@ -101,11 +109,15 @@ a:visited {
 	padding-bottom: 20px;
 }
 
+/****** MEDIA QUERIES ******/
+
 @media screen and (max-width: 768px) {
 	
 	body {
 		margin: 20px;
 	}
+
+/****** STACKS THE TWO COLUMNS ******/	
 
 	.blog .main,
 	.blog .recipes {
